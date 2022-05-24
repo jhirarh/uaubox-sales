@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image img {
+  width: 100%;
+}
+
+.carrossel {
+  width: 100%;
+  height: 73px;
+  background: #e6e6e6;
+}
+.newsletter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  margin: 10px 0px 10px;
+  padding: 20px 0px;
+}
+
+.text_conteiner p {
+  display: flex;
+  letter-spacing: 1px;
+  flex-wrap: wrap;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 23px;
+  width: 290px;
+  height: 100px;
+  background-color: white;
+  justify-content: flex-end;
+  color: #ff273f;
+}
+.text_conteiner span {
+  font-size: 75px;
+  letter-spacing: 2px;
+}
+.form_conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100px;
+  width: 695px;
+  text-align: right;
+}
+.form_conteiner input {
+  border: 2px solid red;
+  padding: 25px;
+  width: 280px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+.form_conteiner label {
+}
+input::placeholder {
+  color: red;
+  font-size: 22px;
+}
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 570px;
+  padding: 70px 0px;
+}
+.styles_h2 {
+  display: block;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+  font-weight: normal;
+  margin: 0 30% 0;
+  height: 60px;
+  text-align: center;
+  border-bottom: 3px solid red;
+}
+.about div {
+  width: 270px;
+  height: 380px;
+  margin: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  box-shadow: 0 7px 19px 5px rgb(0 0 0 / 14%);
+  border-radius: 15px;
+  margin-top: 100px ;
+  padding: 40px;
+}
+.about div p {
+  text-align: center;
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #707070;
+  opacity: ;
+  width: 310px;
+  height: 100px;
+}
+.about div h2 {
+  color: #ff273f;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 35px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 450px;
+  margin: 50px 0px;
+}
+
+.style_plan {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+  height: 280px;
+  background-color: #f7f7f7;
+  border: 3px solid #ff273f;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+.style-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  color: #ff273f;
+}
+.style-desc {
+  font-size: 16px;
+  font-family: "Montserrat";
+  width: 190px;
+}
+.style-price {
+  font-family: "Montserrat", sans-serif;
+  color: #ff273f;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+strong {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ff273f;
+}
+button {
+  font-family: "Bebas Neue";
+  background-color: #ff273f;
+  font-size: 28px;
+  padding: 5px 35px;
+  border-radius: 10px;
+  margin: 5px 10px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+.style_benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  height: 450px;
+  background-color: #F6F6F6;
+}
+.benefits_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: ;
+  align-items: ;
+  flex-wrap: wrap;
+  width: 315px;
+  height: 129px;
+  margin: auto;
+  font-size: ;
+}
+
+.img_container{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.benefits_title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.9em;
+  color: #ff273f;
+  margin: 8px 0px;
+}
+.benefits_paragraph {
+  font-family: "Montserrat", sans-serif;
+  color: #1d1d18;
+  font-weight: ;
+  width: 250px;
+}
+.how_it_works {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: ;
+  align-items: center;
+  padding: 60px 10px;
+  height: 340px;
+  background-color: #F6F6F6;
+}
+.style_cards_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 1280px;
+  height: 160px;
+  margin: 30px 0px;
+}
+.style_cards_content {
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 0px 10px;
+  width: 300px;
+  height: 110px;
+}
+.style_cards_number {
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+  margin-right: 10px;
+  color: #ff273f;
+  border: 2px solid #ff273f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 28px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+}
+.style_cards_text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  color: #1d1d18;
+  width: 210px;
+}
+
+.style_footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  align-items: flex-end;
+  background-color: #f12b40;
+  height: 463px;
+}
+.style_footer_address {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 5px 5px 90px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  height: 280px;
+}
+
+.brand {
+  background-color: #f12b40;
+  margin: 0px 0px 30px;
+  
+}
+.institutional_uaubox {
+  display: flex;
+  flex-wrap: wrap;
+  height: 280px;
+  margin: 5px 5px 90px;
+}
+.institutional_uaubox div {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 8px 90px;
+}
+.institutional_uaubox h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+.institutional_uaubox a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin: 4px 0px;
+  color: #ffffff;
+}
+.style_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 370px;
+}
+.payment-options {
+  margin: 0px 0px 20px;
+}
+.payment-options img {
+  background-color: #f12b40;
+  margin: 0px 13px;
+  width: 60px;
+  height: 30px;
+}
+.contact_cental {
+  width: 350px;
+  margin: 0px 0px 40px;
+  text-align: center;
+  color: #FFFFFF;
+}
+h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 27px;
+  font-weight: 300;
+  color: #ffffff;
+  word-spacing: 2px;
+}
+.style_socials{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 0px 15px;
+  height: 130px;
+}
+.img_rd{
+  background-color: white;
+  margin: 0px 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.style_socials div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.style_socials  img{
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  
+}
+.style_sub_footer {
+  display: block;
+  width: 100vw;
+  padding: 20px 0;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  color: #707070;
+  text-align: center;
+}
